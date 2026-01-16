@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚽ My Football Career Simulator - Community Edition
+# ⚽ My Football Career Sim - Community Edition
 
 **Contribute to make the game better!**
 
