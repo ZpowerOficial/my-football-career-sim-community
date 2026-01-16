@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="/assets/manifest-Bc6N9YIt.webmanifest" />
+    <title>My Football Career Sim</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+      /* Basic styles for font, scrollbar, and animations */
+      body {
+        font-family: 'Inter', sans-serif;
+        background: #000;
+        color: #fff;
+        scrollbar-width: thin;
+        scrollbar-color: #4b5563 #111827;
+      }
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: #1f2937; }
+      ::-webkit-scrollbar-thumb { background-color: #4b5563; border-radius: 6px; }
+
+      /* Ensure html and body take full height and prevent overflow */
+      html, body, #root {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Prevent scrolling on the body */
+      }
+
+      /* Keyframe animations */
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes fadeInAndUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-in { animation: fadeIn 0.5s ease-out forwards; }
+      .animate-fade-in-up { animation: fadeInAndUp 0.4s ease-out forwards; }
+
+      @keyframes ovr-flash-up {
+        0%, 100% { transform: scale(1); color: #4ade80; text-shadow: none; }
+        50% { transform: scale(1.3); color: #86efac; text-shadow: 0 0 20px #4ade80; }
+      }
+      .ovr-flash-up { animation: ovr-flash-up 0.6s ease-out; }
+
+      @keyframes ovr-flash-down {
+        0%, 100% { transform: scale(1); color: #f87171; text-shadow: none; }
+        50% { transform: scale(1.3); color: #fca5a5; text-shadow: 0 0 20px #f87171; }
+      }
+      .ovr-flash-down { animation: ovr-flash-down 0.6s ease-out; }
+
+      @keyframes subtle-pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+      }
+      .animate-subtle-pulse { animation: subtle-pulse 2s ease-in-out infinite; }
+    </style>
+    <script type="module" crossorigin src="/assets/index-BWJZRTjT.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-charts-BGsOonB3.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-BbXXC-EJ.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-capacitor-DOqSxNjx.js">
+    <link rel="modulepreload" crossorigin href="/assets/game-data-constants-CbpySDM7.js">
+    <link rel="modulepreload" crossorigin href="/assets/game-data-leagues-CRkJoAzr.js">
+    <link rel="stylesheet" crossorigin href="/assets/index--siv9_uU.css">
+  </head>
+  <body class="bg-black">
+    <div id="root"></div>
+  </body>
+</html>

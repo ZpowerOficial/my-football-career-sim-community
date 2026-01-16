@@ -1,0 +1,209 @@
+// Names index - exports all expanded name lists
+import {
+    FIRST_NAMES_GLOBAL,
+    FIRST_NAMES_ENGLISH,
+    FIRST_NAMES_SPANISH,
+    FIRST_NAMES_GERMAN,
+} from "./firstNamesMale1";
+import {
+    FIRST_NAMES_ITALIAN,
+    FIRST_NAMES_FRENCH,
+    FIRST_NAMES_PORTUGUESE,
+    FIRST_NAMES_BRAZILIAN,
+} from "./firstNamesMale2";
+import {
+    FIRST_NAMES_ARGENTINIAN,
+    FIRST_NAMES_DUTCH,
+    FIRST_NAMES_TURKISH,
+    FIRST_NAMES_JAPANESE,
+} from "./firstNamesMale3";
+import {
+    FIRST_NAMES_KOREAN,
+    FIRST_NAMES_ARABIC,
+    FIRST_NAMES_SCANDINAVIAN,
+    FIRST_NAMES_EASTERN_EUROPEAN,
+} from "./firstNamesMale4";
+import {
+    FIRST_NAMES_GREEK,
+    FIRST_NAMES_AFRICAN,
+} from "./firstNamesMale5";
+
+import {
+    FIRST_NAMES_FEMALE_GLOBAL,
+    FIRST_NAMES_FEMALE_ENGLISH,
+    FIRST_NAMES_FEMALE_SPANISH,
+    FIRST_NAMES_FEMALE_GERMAN,
+} from "./firstNamesFemale1";
+import {
+    FIRST_NAMES_FEMALE_ITALIAN,
+    FIRST_NAMES_FEMALE_FRENCH,
+    FIRST_NAMES_FEMALE_PORTUGUESE,
+    FIRST_NAMES_FEMALE_BRAZILIAN,
+} from "./firstNamesFemale2";
+import {
+    FIRST_NAMES_FEMALE_ARGENTINIAN,
+    FIRST_NAMES_FEMALE_DUTCH,
+    FIRST_NAMES_FEMALE_TURKISH,
+    FIRST_NAMES_FEMALE_JAPANESE,
+} from "./firstNamesFemale3";
+import {
+    FIRST_NAMES_FEMALE_KOREAN,
+    FIRST_NAMES_FEMALE_ARABIC,
+    FIRST_NAMES_FEMALE_SCANDINAVIAN,
+    FIRST_NAMES_FEMALE_EASTERN_EUROPEAN,
+} from "./firstNamesFemale4";
+import {
+    FIRST_NAMES_FEMALE_GREEK,
+    FIRST_NAMES_FEMALE_AFRICAN,
+} from "./firstNamesFemale5";
+
+import {
+    LAST_NAMES_GLOBAL,
+    LAST_NAMES_ENGLISH,
+    LAST_NAMES_SPANISH,
+    LAST_NAMES_GERMAN,
+} from "./lastNames1";
+import {
+    LAST_NAMES_ITALIAN,
+    LAST_NAMES_FRENCH,
+    LAST_NAMES_PORTUGUESE,
+    LAST_NAMES_BRAZILIAN,
+} from "./lastNames2";
+import {
+    LAST_NAMES_ARGENTINIAN,
+    LAST_NAMES_DUTCH,
+    LAST_NAMES_TURKISH,
+    LAST_NAMES_JAPANESE,
+} from "./lastNames3";
+import {
+    LAST_NAMES_KOREAN,
+    LAST_NAMES_ARABIC,
+    LAST_NAMES_SCANDINAVIAN,
+    LAST_NAMES_EASTERN_EUROPEAN,
+} from "./lastNames4";
+import {
+    LAST_NAMES_GREEK,
+    LAST_NAMES_AFRICAN,
+} from "./lastNames5";
+import {
+    FIRST_NAMES_LUSOPHONE_AFRICAN,
+    FIRST_NAMES_FEMALE_LUSOPHONE_AFRICAN,
+    LAST_NAMES_LUSOPHONE_AFRICAN,
+} from "./lusophoneAfrican";
+import {
+    FIRST_NAMES_FIJIAN,
+    FIRST_NAMES_FEMALE_FIJIAN,
+    LAST_NAMES_FIJIAN,
+} from "./fijian";
+import {
+    FIRST_NAMES_CHINESE,
+    FIRST_NAMES_FEMALE_CHINESE,
+    LAST_NAMES_CHINESE,
+} from "./chinese";
+import {
+    FIRST_NAMES_INDIAN,
+    FIRST_NAMES_FEMALE_INDIAN,
+    LAST_NAMES_INDIAN,
+} from "./indian";
+import {
+    FIRST_NAMES_SOUTHEAST_ASIAN,
+    FIRST_NAMES_FEMALE_SOUTHEAST_ASIAN,
+    LAST_NAMES_SOUTHEAST_ASIAN,
+} from "./southeastAsian";
+import {
+    FIRST_NAMES_ISRAELI,
+    FIRST_NAMES_FEMALE_ISRAELI,
+    LAST_NAMES_ISRAELI,
+} from "./israeli";
+import {
+    FIRST_NAMES_PACIFIC,
+    FIRST_NAMES_FEMALE_PACIFIC,
+    LAST_NAMES_PACIFIC,
+} from "./pacific";
+
+// Aggregate male first names
+export const FIRST_NAMES = {
+    global: FIRST_NAMES_GLOBAL,
+    english: FIRST_NAMES_ENGLISH,
+    spanish: FIRST_NAMES_SPANISH,
+    german: FIRST_NAMES_GERMAN,
+    italian: FIRST_NAMES_ITALIAN,
+    french: FIRST_NAMES_FRENCH,
+    portuguese: FIRST_NAMES_PORTUGUESE,
+    brazilian: FIRST_NAMES_BRAZILIAN,
+    argentinian: FIRST_NAMES_ARGENTINIAN,
+    dutch: FIRST_NAMES_DUTCH,
+    turkish: FIRST_NAMES_TURKISH,
+    japanese: FIRST_NAMES_JAPANESE,
+    korean: FIRST_NAMES_KOREAN,
+    arabic: FIRST_NAMES_ARABIC,
+    scandinavian: FIRST_NAMES_SCANDINAVIAN,
+    eastern_european: FIRST_NAMES_EASTERN_EUROPEAN,
+    greek: FIRST_NAMES_GREEK,
+    african: FIRST_NAMES_AFRICAN,
+    lusophone_african: FIRST_NAMES_LUSOPHONE_AFRICAN,
+    fijian: FIRST_NAMES_FIJIAN,
+    chinese: FIRST_NAMES_CHINESE,
+    indian: FIRST_NAMES_INDIAN,
+    southeast_asian: FIRST_NAMES_SOUTHEAST_ASIAN,
+    israeli: FIRST_NAMES_ISRAELI,
+    pacific: FIRST_NAMES_PACIFIC,
+};
+
+// Aggregate female first names
+export const FIRST_NAMES_FEMALE: { [key: string]: string[] } = {
+    global: FIRST_NAMES_FEMALE_GLOBAL,
+    english: FIRST_NAMES_FEMALE_ENGLISH,
+    spanish: FIRST_NAMES_FEMALE_SPANISH,
+    german: FIRST_NAMES_FEMALE_GERMAN,
+    italian: FIRST_NAMES_FEMALE_ITALIAN,
+    french: FIRST_NAMES_FEMALE_FRENCH,
+    portuguese: FIRST_NAMES_FEMALE_PORTUGUESE,
+    brazilian: FIRST_NAMES_FEMALE_BRAZILIAN,
+    argentinian: FIRST_NAMES_FEMALE_ARGENTINIAN,
+    dutch: FIRST_NAMES_FEMALE_DUTCH,
+    turkish: FIRST_NAMES_FEMALE_TURKISH,
+    japanese: FIRST_NAMES_FEMALE_JAPANESE,
+    korean: FIRST_NAMES_FEMALE_KOREAN,
+    arabic: FIRST_NAMES_FEMALE_ARABIC,
+    scandinavian: FIRST_NAMES_FEMALE_SCANDINAVIAN,
+    eastern_european: FIRST_NAMES_FEMALE_EASTERN_EUROPEAN,
+    greek: FIRST_NAMES_FEMALE_GREEK,
+    african: FIRST_NAMES_FEMALE_AFRICAN,
+    lusophone_african: FIRST_NAMES_FEMALE_LUSOPHONE_AFRICAN,
+    fijian: FIRST_NAMES_FEMALE_FIJIAN,
+    chinese: FIRST_NAMES_FEMALE_CHINESE,
+    indian: FIRST_NAMES_FEMALE_INDIAN,
+    southeast_asian: FIRST_NAMES_FEMALE_SOUTHEAST_ASIAN,
+    israeli: FIRST_NAMES_FEMALE_ISRAELI,
+    pacific: FIRST_NAMES_FEMALE_PACIFIC,
+};
+
+// Aggregate last names
+export const LAST_NAMES = {
+    global: LAST_NAMES_GLOBAL,
+    english: LAST_NAMES_ENGLISH,
+    spanish: LAST_NAMES_SPANISH,
+    german: LAST_NAMES_GERMAN,
+    italian: LAST_NAMES_ITALIAN,
+    french: LAST_NAMES_FRENCH,
+    portuguese: LAST_NAMES_PORTUGUESE,
+    brazilian: LAST_NAMES_BRAZILIAN,
+    argentinian: LAST_NAMES_ARGENTINIAN,
+    dutch: LAST_NAMES_DUTCH,
+    turkish: LAST_NAMES_TURKISH,
+    japanese: LAST_NAMES_JAPANESE,
+    korean: LAST_NAMES_KOREAN,
+    arabic: LAST_NAMES_ARABIC,
+    scandinavian: LAST_NAMES_SCANDINAVIAN,
+    eastern_european: LAST_NAMES_EASTERN_EUROPEAN,
+    greek: LAST_NAMES_GREEK,
+    african: LAST_NAMES_AFRICAN,
+    lusophone_african: LAST_NAMES_LUSOPHONE_AFRICAN,
+    fijian: LAST_NAMES_FIJIAN,
+    chinese: LAST_NAMES_CHINESE,
+    indian: LAST_NAMES_INDIAN,
+    southeast_asian: LAST_NAMES_SOUTHEAST_ASIAN,
+    israeli: LAST_NAMES_ISRAELI,
+    pacific: LAST_NAMES_PACIFIC,
+};

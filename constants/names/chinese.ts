@@ -1,0 +1,107 @@
+// Names for China, Taiwan, Hong Kong
+// Chinese names follow the pattern: Surname (1-2 characters) + Given name (1-2 characters)
+
+// Male first names (given names) - Common Chinese given names
+export const FIRST_NAMES_CHINESE = [
+    // Common male given names (Pinyin romanization)
+    "Wei", "Lei", "Tao", "Hao", "Yang", "Jun", "Bin", "Long", "Feng", "Bo",
+    "Ming", "Zhi", "Yi", "Xin", "Yu", "Chen", "Peng", "Lin", "Dong", "Kai",
+    "Cheng", "Jian", "Gang", "Wen", "Hui", "Yong", "Qiang", "Hong", "Chao", "Hai",
+    "Liang", "Ping", "Xiang", "Guang", "Fei", "Nan", "Zhong", "Xi", "Shuai", "Kun",
+    "Jie", "Lun", "Rui", "Sheng", "Tian", "Xiao", "Yan", "Yun", "Zhen", "Zhe",
+    "Bing", "Cong", "Da", "De", "En", "Fu", "Ge", "Guo", "Han", "Hang",
+    "He", "Hu", "Hua", "Ji", "Jin", "Jing", "Kang", "Li", "Lian", "Lie",
+    "Lu", "Mao", "Meng", "Mu", "Ning", "Qin", "Ran", "Rong", "Shan", "Shi",
+    "Shu", "Si", "Song", "Tai", "Tang", "Ting", "Wan", "Xuan", "Xu", "Ya",
+    "Yao", "Yi", "Ying", "Yue", "Ze", "Zhao", "Zheng", "Zhuo", "Zi", "Zong",
+    "An", "Ao", "Ba", "Bai", "Biao", "Can", "Ce", "Chang", "Chun", "Ci",
+    "Cong", "Cui", "Dao", "Deng", "Di", "Dian", "Din", "Du", "Duo", "Fan",
+    "Fang", "Fo", "Geng", "Gong", "Gu", "Gui", "Hao", "Heng", "Hong", "Hou",
+    "Huai", "Huan", "Huang", "Jia", "Jiang", "Jiao", "Jiu", "Ju", "Jue", "Kuo",
+    "Lai", "Lang", "Lao", "Lei", "Leng", "Ling", "Liu", "Lou", "Luo", "Man",
+    "Mi", "Mian", "Miao", "Min", "Mo", "Nian", "Niu", "Pei", "Pu", "Qi",
+    "Qia", "Qian", "Qiang", "Qiao", "Qiu", "Quan", "Que", "Re", "Ren", "Ri",
+    "Rou", "Ru", "Ruan", "Sai", "San", "Sang", "Se", "Sen", "Sha", "Shao",
+    "She", "Shui", "Shun", "Suo", "Ta", "Te", "Tie", "Tong", "Tu", "Tuo",
+    "Wai", "Wang", "Wei", "Wen", "Wo", "Wu", "Xia", "Xian", "Xie", "Xing",
+    "Xiong", "Xiu", "Yan", "Yang", "Yi", "Yin", "You", "Yuan", "Yun", "Zai",
+    "Zan", "Zang", "Zao", "Zeng", "Zha", "Zhai", "Zhan", "Zhang", "Zheng", "Zhi",
+    "Zhong", "Zhou", "Zhu", "Zhuan", "Zhuang", "Zhui", "Zhun", "Zhuo", "Zong", "Zou",
+    "Zu", "Zuan", "Zui", "Zun", "Zuo", "Ai", "Ang", "Ban", "Bao", "Bei",
+    "Bi", "Bian", "Bo", "Bu", "Cai", "Cao", "Cha", "Chai", "Chan", "Che",
+    "Chi", "Cho", "Chu", "Chuai", "Chuan", "Chuang", "Chui", "Chuo", "Chong", "Da",
+    "Dai", "Dan", "Dang", "De", "Dei", "Dia", "Diao", "Die", "Ding", "Diu",
+    "Dou", "Duan", "Dui", "Dun", "Er", "Fa", "Fan", "Fang", "Fei", "Fen",
+    "Fing", "Fo", "Fou", "Gai", "Gan", "Gang", "Gao", "Ge", "Gei", "Gen",
+    "Gong", "Gou", "Gu", "Gua", "Guai", "Guan", "Guang", "Gui", "Gun", "Guo"
+];
+
+// Female first names (given names) - Common Chinese female given names
+export const FIRST_NAMES_FEMALE_CHINESE = [
+    // Common female given names (Pinyin romanization)
+    "Ying", "Xue", "Hua", "Mei", "Li", "Jing", "Fang", "Yun", "Ping", "Hong",
+    "Juan", "Xia", "Yan", "Fei", "Ling", "Min", "Lan", "Qing", "Hui", "Zhen",
+    "Ya", "Na", "Ning", "Rui", "Xin", "Yue", "Lin", "Wen", "Chen", "Dan",
+    "Jia", "Lu", "Qi", "Wei", "Xi", "Yu", "Yao", "Yi", "Zhi", "Ai",
+    "An", "Bai", "Bi", "Bing", "Bo", "Can", "Chang", "Chao", "Che", "Cheng",
+    "Chu", "Chun", "Cui", "Die", "Dong", "Du", "En", "Er", "Fan", "Feng",
+    "Fu", "Ge", "Guo", "Han", "Hao", "He", "Hou", "Jiao", "Jin", "Jun",
+    "Kai", "Ke", "Kun", "Lai", "Lei", "Lian", "Liang", "Lie", "Liu", "Luo",
+    "Man", "Mao", "Mi", "Mian", "Miao", "Mo", "Mu", "Nan", "Ni", "Nian",
+    "Nuo", "Ou", "Pei", "Qian", "Qiao", "Qin", "Qiong", "Qiu", "Quan", "Rao",
+    "Rong", "Rou", "Ru", "Sha", "Shan", "Shang", "Shao", "Shen", "Sheng", "Shi",
+    "Shu", "Shuang", "Shui", "Si", "Song", "Su", "Tai", "Tian", "Ting", "Tong",
+    "Wan", "Wang", "Wei", "Wen", "Wu", "Xian", "Xiang", "Xiao", "Xie", "Xing",
+    "Xiu", "Xu", "Xuan", "Yang", "Yi", "Yin", "Ying", "You", "Yuan", "Yue",
+    "Yun", "Zan", "Zao", "Ze", "Zeng", "Zha", "Zhan", "Zhang", "Zhao", "Zhen",
+    "Zheng", "Zhi", "Zhong", "Zhou", "Zhu", "Zhuan", "Zi", "Zong", "Zou", "Zu",
+    "Qiqi", "Mimi", "Lulu", "Nana", "Lili", "Tingting", "Xiuxiu", "Fanfan", "Yanyan", "Jiajia",
+    "Linlin", "Wenwen", "Huihui", "Feifei", "Mingming", "Yuyu", "Lanlan", "Shanshan", "Beibei", "Sisi",
+    "Doudou", "Tongtong", "Xinxin", "Yuanyuan", "Peipei", "Meimei", "Weiwei", "Ningning", "Chenchen", "Dandan",
+    "Jiejie", "Susu", "Baobao", "Qianqian", "Xiaoxiao", "Yueue", "Cuicui", "Ruirui", "Rongrong", "Congcong",
+    "Chunxia", "Dongmei", "Qiuying", "Xiafang", "Chunyan", "Xiaomei", "Xiaoli", "Xiaohong", "Xiaohua", "Xiaolan",
+    "Xiaojuan", "Xiaofang", "Xiaoyun", "Xiaoping", "Xiaoqing", "Xiaozhen", "Xiaoxue", "Xiaoxia", "Xiaoming", "Xiaofei",
+    "Shuhua", "Lihua", "Meihua", "Xiuhua", "Lanhua", "Juhua", "Yinghua", "Guihua", "Minghua", "Fenghua",
+    "Chunhua", "Donghua", "Qiuhua", "Xiahua", "Baihua", "Jinhua", "Honghua", "Yunhua", "Yuehua", "Huahua",
+    "Shumei", "Limei", "Yumei", "Xiumei", "Lanmei", "Jumei", "Yingmei", "Guimei", "Mingmei", "Fengmei",
+    "Chunmei", "Dongmei", "Qiumei", "Xiamei", "Baimei", "Jinmei", "Hongmei", "Yunmei", "Yuemei", "Huamei",
+    "Shujuan", "Lijuan", "Yujuan", "Xiujuan", "Lanjuan", "Jujuan", "Yingjuan", "Guijuan", "Mingjuan", "Fengjuan",
+    "Chunjuan", "Dongjuan", "Qiujuan", "Xiajuan", "Baijuan", "Jinjuan", "Hongjuan", "Yunjuan", "Yuejuan", "Huajuan",
+    "Shuping", "Liping", "Yuping", "Xiuping", "Lanping", "Juping", "Yingping", "Guiping", "Mingping", "Fengping",
+    "Chunping", "Dongping", "Qiuping", "Xiaping", "Baiping", "Jinping", "Hongping", "Yunping", "Yueping", "Huaping"
+];
+
+// Chinese surnames - Most common Chinese family names
+export const LAST_NAMES_CHINESE = [
+    // Top 100 most common Chinese surnames (Pinyin romanization)
+    "Wang", "Li", "Zhang", "Liu", "Chen", "Yang", "Zhao", "Huang", "Zhou", "Wu",
+    "Xu", "Sun", "Hu", "Zhu", "Gao", "Lin", "He", "Guo", "Ma", "Luo",
+    "Liang", "Song", "Zheng", "Xie", "Han", "Tang", "Feng", "Yu", "Dong", "Xiao",
+    "Cao", "Yuan", "Deng", "Xu", "Fu", "Shen", "Zeng", "Peng", "Lu", "Su",
+    "Jiang", "Cai", "Jia", "Ding", "Wei", "Xue", "Ye", "Yan", "Long", "Du",
+    "Li", "Cheng", "Tian", "Ren", "Qiu", "Fang", "Shi", "Xiong", "Meng", "Qin",
+    "Yin", "Hou", "Bai", "Pan", "Shao", "Wen", "Mo", "Duan", "Yao", "Liao",
+    "Xia", "Tan", "Fan", "Kong", "Yue", "Jin", "Wan", "Dai", "Zou", "Qiao",
+    "Lan", "Lei", "Cui", "Niu", "Gu", "Yi", "Hao", "Lai", "Nie", "Tao",
+    "Ge", "Ke", "Chu", "Mu", "Qi", "Mao", "Tong", "Lv", "Jing", "Chang",
+    "Shan", "Kan", "Gan", "Ba", "Hua", "Ji", "Min", "Sheng", "Bao", "Lou",
+    "Yun", "Weng", "She", "Ling", "An", "Ying", "Quan", "Rao", "Chi", "Kuang",
+    "Nan", "Wen", "Rong", "Zuo", "Zhuang", "Rui", "Ai", "Xing", "Mai", "Nong",
+    "Ou", "Shu", "Hong", "Jun", "Tai", "Zhuan", "Shui", "Bi", "Zhan", "Kang",
+    "Gui", "Pi", "Sheng", "Ning", "Hong", "Cen", "Che", "Huo", "Sa", "Sang",
+    "Xiang", "Kuai", "Qiang", "Mu", "Chao", "De", "Mi", "Bei", "Mou", "Bing",
+    "Ning", "Jiao", "Ke", "Xin", "Nai", "Gong", "Fei", "Zi", "Qing", "La",
+    "Xiang", "Bing", "Chun", "Qiu", "Dong", "Xu", "Wei", "Cong", "Lun", "Xun",
+    "Cha", "Lai", "Sui", "Jin", "Bu", "Dao", "Nuo", "Shan", "Qiang", "Lu",
+    "Zhai", "Dan", "Nan", "Qu", "Yong", "Bo", "Zuo", "Chou", "Teng", "Piao",
+    "Guan", "Ding", "Ping", "Ha", "Ou", "Ning", "Long", "Miao", "Le", "Zhan",
+    "Yun", "La", "Xu", "Pu", "Shi", "Tuo", "Niao", "Bian", "Xiang", "Lu",
+    "He", "Lv", "Xiu", "Tuo", "Yuan", "Shan", "Ci", "Nuo", "Ya", "Cha",
+    "Pa", "Wa", "Ka", "Ha", "Sa", "Ta", "Na", "Da", "La", "Ma",
+    "Fa", "Ga", "Ba", "Za", "Ra", "Ya", "Xa", "Ja", "Ka", "Va",
+    "Qian", "Yan", "Xian", "Tian", "Nian", "Lian", "Mian", "Bian", "Dian", "Pian",
+    "Jian", "Guan", "Huan", "Juan", "Quan", "Ruan", "Suan", "Tuan", "Duan", "Luan",
+    "Yuan", "Xuan", "Chuan", "Zhuan", "Shuan", "Guan", "Kuan", "Huan", "Wan", "Fan",
+    "Tan", "Man", "Ran", "San", "Nan", "Ban", "Pan", "Gan", "Han", "Kan",
+    "Dan", "Lan", "Chan", "Shan", "Zhan", "Zan", "Yan", "Wan", "An", "En"
+];
