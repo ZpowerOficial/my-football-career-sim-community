@@ -17,15 +17,13 @@
 
 ## 🎯 About This Repository
 
-This is the **community edition** of My Football Career Simulator, designed for contributors to:
+This is the **community edition** of My Football Career Sim, designed for contributors to:
 
 - 🌍 **Fix and improve translations** (locales/)
 - ⚽ **Add/fix teams, leagues, and competitions** (constants/)
 - 🎨 **Improve UI components and themes** (components/, index.css)
 - 🐛 **Fix bugs in game logic and simulations** (services/)
 - 📊 **Improve data accuracy** (data/, constants/)
-
-> **Note**: This repository contains the community-editable parts of the game. The full game (including Android builds, payment systems, and proprietary features) is maintained in a private repository.
 
 ---
 
@@ -91,7 +89,7 @@ npm run build
 
 ## 📝 Development Note
 
-This project was built with vision-driven development using AI tools for rapid prototyping and automation. All design decisions, testing, and curation were made by the author/team. Refactoring contributions for improved readability are welcome!
+This project was built with vision-driven development using AI tools for rapid prototyping and automation. All design decisions, testing, and curation were made by the Zpower. Refactoring contributions for improved readability are welcome!
 
 ---
 
